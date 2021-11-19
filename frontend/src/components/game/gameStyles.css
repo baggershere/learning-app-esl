@@ -1,0 +1,12 @@
+.canvas-holder {
+    position: relative;
+    max-width:100%;
+    /* margin: auto; */
+    /* background-color: aqua; */
+}
+canvas {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

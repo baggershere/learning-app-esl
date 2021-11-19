@@ -1,0 +1,41 @@
+{
+  "name": "LearningApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-api": "nodemon backend/server.js",
+    "seeder": "node backend/seeder.js",
+    "test": "mocha ./backend/test/one.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "connect-mongo": "^4.4.1",
+    "connect-mongodb-session": "^2.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "find-config": "^1.0.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "react-cookie": "^4.0.3",
+    "react-cookies": "^0.1.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "universal-cookie": "^4.0.4"
+  }
+}
